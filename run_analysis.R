@@ -1,9 +1,9 @@
 #clear workspace for new project
-rm(list=ls())
-cat("\014") 
+#rm(list=ls())
+#cat("\014") 
 
-#set working directory
-setwd("C:/Users/Randy/Dropbox/Coursera/Getting and Cleaning Data/Data/getdata-projectfiles-UCI HAR Dataset/UCI HAR Dataset")
+#set working directory -- instructions said to assume this was properly set
+#setwd("C:/Users/Randy/Dropbox/Coursera/Getting and Cleaning Data/Data/getdata-projectfiles-UCI HAR Dataset/UCI HAR Dataset")
 
 #load required libraries
 library(plyr)
